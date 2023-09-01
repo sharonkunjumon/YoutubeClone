@@ -1,0 +1,199 @@
+p{
+    align-items: center;
+}
+
+
+
+.header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: white;
+    border-bottom-color: rgb(180, 177, 177) ;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    z-index: 1;
+    }
+
+.left {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    display: flex;
+}
+
+.menu {
+    height: 30px;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+menu:hover {
+    fill: white;
+}
+
+
+.youtube-logo{
+    width: 75px;
+    height:55px;
+}
+
+
+
+
+
+.middle {
+    flex: 1;
+    margin-left: 20px;
+    max-width: 850px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.search-bar {
+    height: 30px;
+    flex: 1;
+    padding-left: 10px;
+    font-size: 16px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    width: 0;
+}
+.search-bar::placeholder{
+    font-family: roboto,Arial;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.search-icon {
+    height: 26px;
+    width: 30px;
+    margin-left: -1px;
+    margin-right: 10px;
+    border: none;
+}
+
+.search-button {
+    height: 34px;
+    margin-right: 5px;
+    margin-left: -4px;
+}
+
+.voice {
+    height: 28px;
+    width: 20px;
+    border-radius: 14px;
+    margin-left: 2px;
+}
+
+.voice-button{
+    height: 35px;
+    width: 35px;
+    border-radius: 17.5px;
+    border: none;
+}
+
+
+
+
+.right {
+    width: 200px;
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25px;
+    flex-shrink: 0;
+    position: relative;
+        
+}
+
+.upload {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+}
+
+.apps {
+    height: 30px;
+}
+
+
+.noti {
+    height: 30px;
+    width: 30px;
+
+}
+.notification-container{
+    position: relative;
+}
+.noti-count{
+    font-size: 13px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 55%;
+    top: 4px;
+    right: 0;
+    position: absolute;
+    background-color: #dc3545;
+    color: white; 
+    
+}
+
+
+.my-channel{
+    height: 35px;
+    width: 35px;
+    border-radius: 17.5px;
+    border: none;
+    outline: none;
+}
+
+
+.home-img{
+    height: 43px;
+    width: 43px;
+}
+
+.home-text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-size: 13px;
+    color: black;
+}
+
+.explore-img {
+    height: 43px;
+    width: 43px;
+}
+
+.explore-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-size: 13px;
+    color: black;
+}
+
+
+.subcription-img{
+    height: 43px;
+    width: 43px;
+}
+.subcription-text {
+    font-size: 13px;
+    margin-top: 0px;
+}
